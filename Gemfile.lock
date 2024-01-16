@@ -1,3 +1,9 @@
+PATH
+  remote: elementary
+  specs:
+    elementary (0.1.0)
+      jekyll (~> 4.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -77,6 +83,7 @@ PLATFORMS
   x64-mingw-ucrt
 
 DEPENDENCIES
+  elementary!
   http_parser.rb (~> 0.6.0)
   jekyll (~> 4.3.3)
   jekyll-feed (~> 0.12)

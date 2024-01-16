@@ -1,0 +1,31 @@
+---
+layout: default
+cover: false
+---
+<head>
+  <link rel="icon" href="assets/favicon.ico" />
+  <link rel="apple-touch-icon" href="assets/favicon.ico" />
+</head>
+
+<header>
+  <h1>Articles</h1>
+</header>
+
+<hr class="stylish"/>
+
+<main class="home-main">
+  {% if site.posts.size > 0 %}
+    <section id="posts">
+      <div class="parent">
+        {% for post in site.posts %}
+          <div class="post-wrapper">
+            <time class="post-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m/%Y" }} </time>
+            <a class="post-link" href="{{ post.url }}">
+               {{ post.title }}
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+</main>
