@@ -18,7 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Luke Banicevic's Blog
+title: Pixel Lifting Luke
+name: 'Pixel Lifting Luke'
 email: lukebanicevic@gmail.com
 description: 'Code, Science, Philosophy, Humor'
 meta_description: "Luke Banicevic's Blog - Essays on programming, web engineering, security and sometimes life"

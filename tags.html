@@ -9,7 +9,7 @@ title: Tags
 <ul class="tag-box">
   {% assign tags_list = site.tags %}
     {% for tag in tags_list %}
-    	<li><a href="#{{ tag[0] }}">{{ tag[0] }} <span>{{ tag[1].size }}</span></a></li>
+    	<li><a href="#{{ tag[0] }}">{{ tag[0] }} &middot <span>{{ tag[1].size }}</span></a></li>
     {% endfor %}
   {% assign tags_list = nil %}
 </ul>
